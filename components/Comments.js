@@ -128,9 +128,9 @@ export const Comments = () => {
                     color: rgba(107, 114, 128, var(--tw-text-opacity));
                 }
                 p {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                 }
-                @media (max-width: 600px) {
+                @media (max-width: 768px) {
                     ul {
                         margin: 0;
                         list-style: none;

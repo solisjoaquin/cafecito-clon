@@ -100,7 +100,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
                 .article__p {
                     margin-top: 0.25rem;
                 }
-                @media (max-width: 600px) {
+                @media (max-width: 768px) {
                     .content__group {
                         padding-top: 1rem;
                         width: 100%;

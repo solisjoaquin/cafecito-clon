@@ -3,9 +3,11 @@ export const Footer = () => {
         <footer>
             <section className="footer__left-section">
                 © 2021 Cafecito.
+                <a href="">Github</a>
                 <a href="/">Preguntas frecuentes</a>
                 <a href="/">Términos y política de privacidad</a>
             </section>
+
             <section className="footer__right-section">
                 <ul>
                     <li><a href="/">

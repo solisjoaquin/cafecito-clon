@@ -46,9 +46,6 @@ export const HowItWorks = () => {
             </div>
             <style jsx>
                 {`
-                .content {
-
-                }
                 .content__title {
                     
                     font-family: "Recoleta Bold";
@@ -65,10 +62,9 @@ export const HowItWorks = () => {
                 }
                 .content__img {
                     width: 100%;
-                   /*  padding: 70px 52px 0; */
                     box-sizing: border-box;
                     --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+                    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
                 }
                 .section {
                     padding: 0 0.75rem;

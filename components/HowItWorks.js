@@ -69,6 +69,14 @@ const Content = styled.div`
     --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+@media (max-width: 768px) {
+    .content__group {
+        padding-top: 1rem;
+        width: 100%;
+        flex-direction: column;
+    }
+}
 `
 
 const Section = styled.section`
@@ -97,15 +105,7 @@ padding: 0 0.75rem;
     margin-top: 0.25rem;
 }
 @media (max-width: 768px) {
-    .content__group {
-        padding-top: 1rem;
-        width: 100%;
-        flex-direction: column;
-    }
-    .section {
-        padding-top: 2rem;
-    }
-    
+    padding-top: 2rem;   
 }
 `
 

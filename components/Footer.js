@@ -24,7 +24,6 @@ export const Footer = () => {
 }
 
 const FooterStyled = styled.footer`
-
     padding: 2rem 1rem;
     display: flex;
     justify-content: space-between;
